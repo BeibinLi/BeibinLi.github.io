@@ -45,6 +45,27 @@ I'm currently a senior research engineer at Microsoft Research, where my work ce
 
 <div class="filterDiv dbPaper">
 
+### Reflect-RL: Two-Player Online RL Fine-Tuning for LMs
+
+Zhou, R., Du, SS., Li, B.
+
+[[arXiv]](https://arxiv.org/abs/2402.12621)
+
+</div>
+
+
+<div class="filterDiv dbPaper">
+
+### Autogen: Enabling next-gen llm applications via multi-agent conversation framework
+Wu, Q., Bansal, G., Zhang, J., Wu, Y., Zhang, S., Zhu, E., Li, B., Jiang, L., Zhang, X., Wang, C.
+
+[[arXiv]](https://arxiv.org/abs/2308.08155)     [[GitHub]](https://github.com/microsoft/autogen)
+
+
+</div>
+
+<div class="filterDiv dbPaper">
+
 ### Large Language Models for Supply Chain Optimization
 
 Li, B.; Mellou, K.; Zhang, B.; Pathuri, J.; Menache, I.;
