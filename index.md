@@ -23,7 +23,7 @@ beibin.li at microsoft.com;
 
 <br>
 
-**Cloud Operation Research (CORE), Microsoft Research, Redmond, WA**
+**Machine Learning and Optimization (MLO), Microsoft Research, Redmond, WA**
 
 <br>
 
@@ -487,7 +487,7 @@ Introduction to theory of computation.  Models of computation: finite state mach
 
 |             |                    |                           |                                       |               |
 | :---------: | :----------------: | :-----------------------: | :-----------------------------------: | :-----------: |
-| 2022 - Now | Senior Research Engineer |   CORE           | Microsoft Research |  Redmond, WA  |
+| 2022 - Now | Senior Research Engineer |   Machine Learning and Optimization | Microsoft Research |  Redmond, WA  |
 | 2016 - 2017 | Research Associate |           SCITL           | Seattle Children's Research Institute |  Seattle, WA  |
 | 2015 - 2016 |  Research Fellow   | Technology Innovation Lab |            Yale University            | New Haven, CT |
 
