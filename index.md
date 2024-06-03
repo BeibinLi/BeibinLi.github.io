@@ -68,7 +68,7 @@ Zhou, R., Du, SS., Li, B.
 </div>
 
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv mlPaper">
 
 ### Autogen: Enabling next-gen llm applications via multi-agent conversation framework
 Wu, Q., Bansal, G., Zhang, J., Wu, Y., Zhang, S., Zhu, E., Li, B., Jiang, L., Zhang, X., Wang, C.
@@ -78,7 +78,7 @@ Wu, Q., Bansal, G., Zhang, J., Wu, Y., Zhang, S., Zhu, E., Li, B., Jiang, L., Zh
 
 </div>
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv mlPaper">
 
 ### Large Language Models for Supply Chain Optimization
 
@@ -317,7 +317,7 @@ In _Journal of Clinical Oncology_ (JCO). 2020
 
 </div>
 
-<div class="filterDiv etPaper">
+<div class="filterDiv mlPaper">
 
 ### Sparsely Grouped Input Variables for Neural Networks
 
