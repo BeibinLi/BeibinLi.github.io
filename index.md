@@ -1,6 +1,6 @@
 % Beibin Li
 % 李辈滨
-% Updated: Sept/2023
+% Updated: June/2024
 
 <link rel="stylesheet" href="uw.css">
 <link rel="stylesheet" href="sidebar.css">
@@ -25,6 +25,11 @@ beibin.li at microsoft.com;
 
 **Machine Learning and Optimization (MLO), Microsoft Research, Redmond, WA**
 
+
+- [[Book Meeting with Me](https://outlook.office.com/bookwithme/user/6d89b62a2abc4476b3eeed275eb16354@microsoft.com?anonymous&ep=plink)]
+
+
+
 <br>
 
 I'm currently a senior research engineer at Microsoft Research, where my work centers on AI and combinatorial optimization for cloud operations. Prior to joining MSR, I pursued a Ph.D. at the Paul G. Allen School of Computer Science and Engineering, University of Washington, under the guidance of Linda Shapiro and Frederick Shic. During that time, I dedicated my research to developing a Unified Data Adaptation Framework for Neural Networks, with a particular focus on low-resource neural adaptation. In my [dissertation](uda/index.html), I delved into the adaptation of deep learning models for a range of applications, including histopathological images, eye tracking models, autism behavior analyses, and database optimization.
@@ -34,16 +39,25 @@ I'm currently a senior research engineer at Microsoft Research, where my work ce
 <div id="filterBtnContainer">
   <button class="filterBtn fBtnActive" onclick="filterSelection('all')"> All </button>
   <button class="filterBtn" onclick="filterSelection('dbPaper')"> System </button>
-  <button class="filterBtn" onclick="filterSelection('healthPaper')"> Health </button>
+  <button class="filterBtn" onclick="filterSelection('mlPaper')"> Machine Learning </button>
   <button class="filterBtn" onclick="filterSelection('etPaper')"> Eye-Tracking </button>
+  <button class="filterBtn" onclick="filterSelection('healthPaper')"> Health </button>
   <button class="filterBtn" onclick="filterSelection('autismPaper')"> Autism </button>
 </div>
 
-
 <div class="publicationContainer">
+<div class="filterDiv mlPaper">
+
+### Small Language Models for Application Interactions: A Case Study
+
+Li, B.,  Zhang, Y., Bubeck, S., Pathuri, S.,  Menache, I.
+
+[[arXiv]](https://arxiv.org/abs/2405.20347)
+
+</div>
 
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv mlPaper">
 
 ### Reflect-RL: Two-Player Online RL Fine-Tuning for LMs
 
