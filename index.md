@@ -79,6 +79,14 @@ Wu, Q., Bansal, G., Zhang, J., Wu, Y., Zhang, S., Zhu, E., Li, B., Jiang, L., Zh
 </div>
 
 <div class="filterDiv mlPaper">
+### Towards Safer Heuristics With Xplain
+Karimi, P.,  Pirelli, S., Kakarla, S., Beckett, R.,  Segarra, S.,  Li, B., Namyar, P., Arzani, B.
+
+_In HotNet, 2024_
+
+</div>
+
+<div class="filterDiv mlPaper">
 
 ### Large Language Models for Supply Chain Optimization
 
