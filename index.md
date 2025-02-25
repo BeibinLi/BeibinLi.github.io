@@ -1,6 +1,6 @@
 % Beibin Li
 % 李辈滨
-% Updated: June/2024
+% Updated: Dec/2024
 
 <link rel="stylesheet" href="uw.css">
 <link rel="stylesheet" href="sidebar.css">
