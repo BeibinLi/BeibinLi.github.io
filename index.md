@@ -1,6 +1,6 @@
 % Beibin Li
 % 李辈滨
-% Updated: Dec/2024
+% Updated: April/2025
 
 <link rel="stylesheet" href="uw.css">
 <link rel="stylesheet" href="sidebar.css">
@@ -19,36 +19,120 @@
 
 [[Curriculum Vitae]](cv_beibinli.pdf);
 [[Google Scholar]](https://scholar.google.com/citations?user=-ZEDbTYAAAAJ&hl=en&oi=ao);
-beibin.li at microsoft.com;
+beibin79 at gmail.com;
 
 <br>
 
-**Microsoft Research, Redmond, WA**
-
-
-- [[Book Meeting with Me](https://outlook.office.com/bookwithme/user/6d89b62a2abc4476b3eeed275eb16354@microsoft.com?anonymous&ep=plink)]
-
+**Meta, GenAI. Bellevue, WA**
 
 
 <br>
 
+I am currently a researcher at **Meta GenAI**, where I work on the **LLaMA post-training team**, improving LLaMA's performance on multilingual, reasoning, human preference, and agentic capabilities. Previously, I was a researcher at **Microsoft Research**, where I contributed to foundational work in AI for combinatorial optimization and cloud infrastructure operations.
 
-I'm currently a senior research engineer at Microsoft Research, where my work centers on combinatorial optimization for cloud operations. Prior to joining MSR, I pursued a Ph.D. at the Paul G. Allen School, University of Washington, under the guidance of Linda Shapiro and Frederick Shic. During that time, I dedicated my research to developing a Unified Data Adaptation Framework, with a particular focus on low-resource adaptation. In my [dissertation](uda/index.html), I delved into the adaptation of mathematical models for a range of applications, including histopathological images, eye tracking models, autism analyses, and database optimization. 
-
+Prior to joining industry, I completed my Ph.D. at the Paul G. Allen School of Computer Science & Engineering at the **University of Washington**, under the mentorship of Prof. Linda Shapiro and Dr. Frederick Shic. My doctoral research centered on the development of a Unified Data Adaptation Framework, targeting the challenges of low-resource domain adaptation. In my [dissertation](uda/index.html), I proposed methods for generalizing mathematical models across data-scarce domains, with applications spanning histopathological image analysis, eye-tracking signal modeling, autism phenotype stratification, and database optimization. Prior to my doctoral studies, I conducted research at both the **University of Michigan** and **Yale University**.
 
 
 ## Publication
 
 <div id="filterBtnContainer">
   <button class="filterBtn fBtnActive" onclick="filterSelection('all')"> All </button>
-  <button class="filterBtn" onclick="filterSelection('dbPaper')"> System </button>
+  <button class="filterBtn" onclick="filterSelection('sysPaper')"> System </button>
   <button class="filterBtn" onclick="filterSelection('mlPaper')"> Machine Learning </button>
   <button class="filterBtn" onclick="filterSelection('etPaper')"> Eye-Tracking </button>
   <button class="filterBtn" onclick="filterSelection('healthPaper')"> Health </button>
   <button class="filterBtn" onclick="filterSelection('autismPaper')"> Autism </button>
 </div>
 
+
+
 <div class="publicationContainer">
+<!-- BEGIN of PAPERS -->
+
+
+<div class="filterDiv mlPaper">
+### Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems
+
+S Zhang, M Yin, J Zhang, J Liu, Z Han, J Zhang, B Li, C Wang, H Wang, Y Chen, Q Wu
+
+[[arXiv]](https://arxiv.org/abs/2505.00212)
+</div>
+
+
+<div class="filterDiv mlPaper sysPaper">
+### Alchemist: Towards the Design of Efficient Online Continual Learning System
+
+Y Huang, Y Liu, HS Gunawi, B Li, C Hwang
+
+[[arXiv]](https://arxiv.org/abs/2503.01066)
+</div>
+
+
+<div class="filterDiv mlPaper healthPaper">
+### PathFinder: A Multi-Modal Multi-Agent System for Medical Diagnostic Decision-Making Applied to Histopathology
+
+F Ghezloo, MS Seyfioglu, R Soraki, WO Ikezogwo, B Li, T Vivekanandan, ...
+
+[[arXiv]](https://arxiv.org/abs/2502.08916)
+
+</div>
+
+
+<div class="filterDiv mlPaper">
+### On the Emergence of Thinking in LLMs I: Searching for the Right Intuition
+
+G Ye, KD Pham, X Zhang, S Gopi, B Peng, B Li, J Kulkarni, HA Inan
+
+[[arXiv]](https://arxiv.org/abs/2502.06773)
+
+</div>
+
+
+
+<div class="filterDiv mlPaper sysPaper">
+### Efficient Cloud Server Deployment Under Demand Uncertainty
+
+RP Liu, K Mellou, EXY Gong, B Li, T Coffee, J Pathuri, D Simchi-Levi, ...
+
+_Manufacturing & Service Operations Management_
+
+
+[[Link]](https://pubsonline.informs.org/doi/10.1287/msom.2023.0372)
+
+</div>
+
+
+
+
+<div class="filterDiv etPaper healthPaper autismPaper">
+### Preserved but Un-Sustained Responses to Bids for Dyadic Engagement in School-Age Children with Autism
+
+CA Wall, C Hudac, K Dommer, B Li, A Atyabi, C Foster, Q Wang, E Barney, ...
+
+
+[[Link]](https://pubmed.ncbi.nlm.nih.gov/39754656/)
+
+_Journal of Autism and Developmental Disorders, 1-9_
+</div>
+
+
+
+<div class="filterDiv mlPaper">
+### Towards foundation models for mixed integer linear programming
+
+S Li, J Kulkarni, I Menache, C Wu, B Li
+
+_In ICLR, 2025_
+
+[[arXiv]](https://arxiv.org/abs/2410.08288)
+
+</div>
+
+
+
+
+
+
 <div class="filterDiv mlPaper">
 
 ### Small Language Models for Application Interactions: A Case Study
@@ -60,11 +144,14 @@ Li, B.,  Zhang, Y., Bubeck, S., Pathuri, S.,  Menache, I.
 </div>
 
 
+
 <div class="filterDiv mlPaper">
 
 ### Reflect-RL: Two-Player Online RL Fine-Tuning for LMs
 
 Zhou, R., Du, SS., Li, B.
+
+_In ACL, 2024_
 
 [[arXiv]](https://arxiv.org/abs/2402.12621)
 
@@ -87,7 +174,21 @@ Karimi, P.,  Pirelli, S., Kakarla, S., Beckett, R.,  Segarra, S.,  Li, B., Namya
 
 _In HotNet, 2024_
 
+[[arXiv]](https://arxiv.org/abs/2410.15086)
+
 </div>
+
+
+<div class="filterDiv mlPaper sysPaper">
+
+### Computing in the era of large generative models: From cloud-native to ai-native
+
+Y Lu, S Bian, L Chen, Y He, Y Hui, M Lentz, B Li, F Liu, J Li, Q Liu, R Liu, ...
+
+[[arXiv]](https://arxiv.org/abs/2401.12230)
+
+</div>
+
 
 <div class="filterDiv mlPaper">
 
@@ -101,7 +202,7 @@ Li, B.; Mellou, K.; Zhang, B.; Pathuri, J.; Menache, I.;
 </div>
 
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv sysPaper">
 
 ### Kerveros: Efficient and Scalable Cloud Admission Control
 
@@ -109,17 +210,23 @@ Sajal, S.;  Marshall, L.;  Li, B.;  Zhou, S.;  Pan, A.; Mellou, K.;  Narayanan1,
 
 _In OSDI, 2023_
 
+[[Paper]](https://www.usenix.org/conference/osdi23/presentation/sajal)
+
 </div>
 
 
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv sysPaper">
 
 ### VM Allocation with Lifetime Predictions
 
 Barbalho, H.;  Kovaleski, P.;  Li, B.;  Marshall, L.;  Molinaro, M.;  Pan, A.; Cortez, E.; Leao, M.;  Patwari, H.;  Tang, Z.;   Santos, T.; Goncalves, L.;   Dion, D.;  Moscibroda, T.;  Menache, I.
 
+**Best Paper Award, MLSys 2023**
+
 _In MLSys, 2023_
+
+[[Paper]](https://proceedings.mlsys.org/paper_files/paper/2023/file/48eb2c79643df5cb7d125945238bd7d0-Paper-mlsys2023.pdf)
 
 </div>
 
@@ -132,6 +239,8 @@ _In MLSys, 2023_
 Liu, K.; Li, B.; Wu, W.; May, C.; Chang, O.; Knezevich, S.; Reische, L.; Elmore, J.; Shapiro, L.;
 
 _In WACV, 2023_
+
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10030364)
 
 </div>
 
@@ -155,7 +264,7 @@ _In Statistics in Biosciences, pp.1-27._ 2022
 
 </div>
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv sysPaper">
 
 ### Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts
 
@@ -204,7 +313,7 @@ _Frontiers in Neuroscience_ 2021
 
 </div>
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv sysPaper">
 
 ### Cardinality Estimation: Is Machine Learning a Silver Bullet?
 
@@ -216,7 +325,7 @@ _The 3rd International Workshop on Applied AI for Database Systems and Applicati
 
 </div>
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv sysPaper">
 
 ### Q-error Bounds of Random Uniform Sampling for Cardinality Estimation
 
