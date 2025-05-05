@@ -17,9 +17,9 @@
 
 <img src="img/me.jpg" alt="drawing" width="100" align="right" HSPACE=50 VSPACE=50/>
 
-[[Curriculum Vitae]](cv_beibinli.pdf);
-[[Google Scholar]](https://scholar.google.com/citations?user=-ZEDbTYAAAAJ&hl=en&oi=ao);
-beibin79 at gmail.com;
+[[Curriculum Vitae]](cv_beibinli.pdf)
+[[Google Scholar]](https://scholar.google.com/citations?user=-ZEDbTYAAAAJ&hl=en&oi=ao)
+beibin79 at gmail.com
 
 <br>
 
@@ -28,7 +28,8 @@ beibin79 at gmail.com;
 
 <br>
 
-I am currently a researcher at **Meta GenAI**, where I work on the **LLaMA post-training team**, improving LLaMA's performance on multilingual, reasoning, human preference, and agentic capabilities. Previously, I was a researcher at **Microsoft Research**, where I contributed to foundational work in AI for combinatorial optimization and cloud infrastructure operations.
+I am currently a researcher at **Meta GenAI**, where I work on the **LLaMA post-training team**, improving LLaMA's performance on multilingual, reasoning, human preference, and agentic capabilities. 
+Previously, I was a researcher at **Microsoft Research**, where I contributed to foundational work in AI for combinatorial optimization and cloud infrastructure operations.
 
 Prior to joining industry, I completed my Ph.D. at the Paul G. Allen School of Computer Science & Engineering at the **University of Washington**, under the mentorship of Prof. Linda Shapiro and Dr. Frederick Shic. My doctoral research centered on the development of a Unified Data Adaptation Framework, targeting the challenges of low-resource domain adaptation. In my [dissertation](uda/index.html), I proposed methods for generalizing mathematical models across data-scarce domains, with applications spanning histopathological image analysis, eye-tracking signal modeling, autism phenotype stratification, and database optimization. Prior to my doctoral studies, I conducted research at both the **University of Michigan** and **Yale University**.
 
@@ -54,6 +55,8 @@ Prior to joining industry, I completed my Ph.D. at the Paul G. Allen School of C
 ### Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems
 
 S Zhang, M Yin, J Zhang, J Liu, Z Han, J Zhang, B Li, C Wang, H Wang, Y Chen, Q Wu
+
+_In ICML, 2025._ Spotlight Paper (top 2.6%)
 
 [[arXiv]](https://arxiv.org/abs/2505.00212)
 </div>
