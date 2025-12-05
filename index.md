@@ -1,6 +1,6 @@
 % Beibin Li
 % 李辈滨
-% Updated: April/2025
+% Updated: Nov/2025
 
 <link rel="stylesheet" href="uw.css">
 <link rel="stylesheet" href="sidebar.css">
@@ -23,13 +23,19 @@ beibin79 at gmail.com
 
 <br>
 
-**Meta, GenAI. Bellevue, WA**
+**Member of Technical Staff, Reasoning, xAI**
 
 
 <br>
 
-I am currently a researcher at **Meta GenAI**, where I work on the **LLaMA post-training team**, improving LLaMA's performance on multilingual, reasoning, human preference, and agentic capabilities. 
-Previously, I was a researcher at **Microsoft Research**, where I contributed to foundational work in AI for combinatorial optimization and cloud infrastructure operations.
+I am currently an MTS at **xAI**, focusing on reasoning for agents and
+tool use. Previously, I was a researcher at **Meta GenAI**, where I worked
+on the LLaMA post-training, improving LLaMA's performance on
+multilingual understanding, reasoning, alignment with human preferences, and
+agentic capabilities. Before that, I was a researcher at **Microsoft
+Research**, where I contributed to foundational work in AI for combinatorial
+optimization and large-scale cloud infrastructure operations.
+
 
 Prior to joining industry, I completed my Ph.D. at the Paul G. Allen School of Computer Science & Engineering at the **University of Washington**, under the mentorship of Prof. Linda Shapiro and Dr. Frederick Shic. My doctoral research centered on the development of a Unified Data Adaptation Framework, targeting the challenges of low-resource domain adaptation. In my [dissertation](uda/index.html), I proposed methods for generalizing mathematical models across data-scarce domains, with applications spanning histopathological image analysis, eye-tracking signal modeling, autism phenotype stratification, and database optimization. Prior to my doctoral studies, I conducted research at both the **University of Michigan** and **Yale University**.
 
