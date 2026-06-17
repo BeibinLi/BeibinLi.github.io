@@ -1,6 +1,6 @@
 % Beibin Li
 % 李辈滨
-% Updated: Nov/2025
+% Updated: Jun/2026
 
 <link rel="stylesheet" href="uw.css">
 <link rel="stylesheet" href="sidebar.css">
@@ -23,13 +23,16 @@ beibin79 at gmail.com
 
 <br>
 
-**Member of Technical Staff, Reasoning, xAI**
+**Lead Scientist, Apodex**
 
 
 <br>
 
-I am currently an MTS at **xAI**, focusing on reasoning for agents and
-tool use. Previously, I was a researcher at **Meta GenAI**, where I worked
+I am currently a Lead Scientist at **Apodex**, a frontier AI lab building
+general-purpose reasoning systems and research agents, where I lead the
+**Coding** team and the **Self-Evolve** team. Previously, I was a Member of
+Technical Staff on the Reasoning team at **xAI**, focusing on reasoning for
+agents and tool use. Before that, I was a researcher at **Meta GenAI**, where I worked
 on the LLaMA post-training, improving LLaMA's performance on
 multilingual understanding, reasoning, alignment with human preferences, and
 agentic capabilities. Before that, I was a researcher at **Microsoft
@@ -630,7 +633,10 @@ Introduction to theory of computation.  Models of computation: finite state mach
 
 |             |                    |                           |                                       |               |
 | :---------: | :----------------: | :-----------------------: | :-----------------------------------: | :-----------: |
-| 2022 - Now | Senior Research Engineer |   Machine Learning and Optimization | Microsoft Research |  Redmond, WA  |
+| 2026 - Now | Lead Scientist | Coding & Self-Evolve | Apodex |  Redwood City, CA  |
+| 2025 - 2026 | Member of Technical Staff |   Reasoning | xAI |  Palo Alto, CA  |
+| 2024 - 2025 | Researcher |   GenAI (LLaMA Post-Training) | Meta |  Menlo Park, CA  |
+| 2022 - 2024 | Senior Research Engineer |   Machine Learning and Optimization | Microsoft Research |  Redmond, WA  |
 | 2016 - 2017 | Research Associate |           SCITL           | Seattle Children's Research Institute |  Seattle, WA  |
 | 2015 - 2016 |  Research Fellow   | Technology Innovation Lab |            Yale University            | New Haven, CT |
 
