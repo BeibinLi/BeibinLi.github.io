@@ -163,6 +163,15 @@ else
     echo "[setup] skip nvim config (nvim.zip missing)" >&2
 fi
 
+# Setup uv (fast Python package manager)
+if command -v pip >/dev/null 2>&1; then
+    pip install uv || echo "[setup] uv install failed (continuing)" >&2
+elif command -v pip3 >/dev/null 2>&1; then
+    pip3 install uv || echo "[setup] uv install failed (continuing)" >&2
+else
+    echo "[setup] skip uv (pip missing)" >&2
+fi
+
 # Setup Claude Code (network call — tolerate failures)
 if command -v curl >/dev/null 2>&1; then
     curl -fsSL https://claude.ai/install.sh | bash \
