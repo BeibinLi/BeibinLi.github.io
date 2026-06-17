@@ -101,6 +101,34 @@ ensure_pkg unzip
 ensure_pkg git
 ensure_pkg curl
 
+# Install GitHub CLI (gh). Package name differs from the command on some PMs;
+# apt/yum need the official repo, so fall back to the upstream installer there.
+install_gh () {
+    if command -v gh >/dev/null 2>&1; then return 0; fi
+    case "$PM" in
+        brew|dnf|pacman)
+            ensure_pkg gh ;;
+        apt-get)
+            echo "[setup] installing gh via official apt repo ..."
+            curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+                | $SUDO dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg 2>/dev/null \
+                && $SUDO chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+                && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" \
+                    | $SUDO tee /etc/apt/sources.list.d/github-cli.list >/dev/null \
+                && $SUDO apt-get update -y >/dev/null 2>&1 \
+                && $SUDO apt-get install -y gh \
+                || echo "[setup] gh install failed (continuing)" >&2 ;;
+        yum)
+            $SUDO yum install -y 'dnf-command(config-manager)' >/dev/null 2>&1
+            $SUDO yum config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo >/dev/null 2>&1 \
+                && $SUDO yum install -y gh \
+                || echo "[setup] gh install failed (continuing)" >&2 ;;
+        *)
+            echo "[setup] no known way to install gh on this system; skip" >&2 ;;
+    esac
+}
+install_gh
+
 # Install Neovim only if missing or too old (<0.10).
 need_nvim_install=1
 if command -v nvim >/dev/null 2>&1; then
