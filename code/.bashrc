@@ -105,6 +105,18 @@ alias bashrc='${EDITOR} ~/.bashrc'
 alias reload='source ~/.bashrc'
 
 
+
+# Claude Code related settings
+# 创建日志目录
+mkdir -p "$HOME/.claude-capture/raw-bodies"
+# 必须：开启 telemetry 并把完整 API body 写到本地文件
+export CLAUDE_CODE_ENABLE_TELEMETRY=1
+export OTEL_LOGS_EXPORTER=console
+export OTEL_LOG_RAW_API_BODIES="file:$HOME/.claude-capture/raw-bodies"
+# 可选：同时记录 user prompt 和 tool 调用细节
+export OTEL_LOG_USER_PROMPTS=1
+export OTEL_LOG_TOOL_DETAILS=1
+
 # ============================================================
 # Functions
 # ============================================================
