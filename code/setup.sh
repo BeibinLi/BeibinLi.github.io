@@ -174,7 +174,9 @@ if [ ! -f ~/.vim/autoload/plug.vim ]; then
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim \
         || echo "[setup] vim-plug download failed (continuing)" >&2
 fi
-command -v vim >/dev/null 2>&1 && (vim +'PlugInstall --sync' +qa || true)
+# Run non-interactively: stdin from /dev/null auto-dismisses vim's
+# "Press ENTER or type command to continue" pager prompts so it never blocks.
+command -v vim >/dev/null 2>&1 && (vim +'PlugInstall --sync' +qa </dev/null >/dev/null 2>&1 || true)
 
 # Setup Neovim (lazy.nvim-based config from nvim.zip)
 mkdir -p ~/.config
